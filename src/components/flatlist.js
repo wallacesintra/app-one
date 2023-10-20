@@ -8,7 +8,31 @@ const DATA = [
         name: 'Wallace', 
         age: 23,
         alias: [ 'Sinatra', 'Metro Boomin', 'Elliot']
-    }
+    },
+    {
+        id: 545767,
+        name: 'Wallace', 
+        age: 23,
+        alias: [ 'Sinatra', 'Metro Boomin', 'Elliot']
+    },
+    {
+        id: 545763,
+        name: 'Wallace', 
+        age: 23,
+        alias: [ 'Sinatra', 'Metro Boomin', 'Elliot']
+    },
+    {
+        id: 545764,
+        name: 'Wallace', 
+        age: 23,
+        alias: [ 'Sinatra', 'Metro Boomin', 'Elliot']
+    },
+    {
+        id: 545760,
+        name: 'Wallace', 
+        age: 23,
+        alias: [ 'Sinatra', 'Metro Boomin', 'Elliot']
+    },   
 ]
 
 const Item = (props) => {
@@ -40,6 +64,7 @@ const Flat = () => {
             <FlatList 
                 data={DATA}
                 renderItem={renderItem}
+                horizontal = {true}
             />
 
 
@@ -52,6 +77,7 @@ const styles = StyleSheet.create({
     item: {
         alignItems: 'center',
         justifyContent: 'center',
+        margin: 10,
         width: 150,
         height: 150,
         borderWidth: 2,
