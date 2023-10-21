@@ -60,7 +60,7 @@ const Flat = () => {
 
     return (
         <SafeAreaView>
-            <Text>tytytytyty</Text>
+            <Text>TItle</Text>
             <FlatList 
                 data={DATA}
                 renderItem={renderItem}
